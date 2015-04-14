@@ -37,6 +37,7 @@ p {
   font-size: 1rem;
   margin-bottom: 120px;
 }
+
 /* Your Custom Skin */
 video {
   display: block;
@@ -56,9 +57,6 @@ audio {
   margin-bottom: 45px;
 }
 
-
-
-
 .mejs-loralee .mejs-controls {
   height: 30px;
   background: black;
@@ -77,8 +75,6 @@ audio {
   width: 90px;
   height: 200px;
   right: auto;
-  
-  
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail {

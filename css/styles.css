@@ -8,7 +8,8 @@
 }
 
 body {
-  background: url('../img/frenchbgred.jpg');
+  background: white;
+  /*background: url('../img/frenchbgred.jpg');*/
   color: #384047;
   
 }
@@ -28,12 +29,12 @@ h1, h2 {
 
 /* Your Custom Skin */
 video, audio, .mejs-loralee {
-  margin: 50px auto;
+  margin: auto;
   display: block;
 }
 
 .mejs-loralee .mejs-controls {
-  background: rgba(56,64,71,0.98);
+  background: blue;
   height: 30px;
 }
 
@@ -46,7 +47,7 @@ video, audio, .mejs-loralee {
 }
 
 .mejs-loralee .mejs-controls .mejs-captions-selector {
-  background: rgba(56,64,71,0.98);
+  background: yellow;
   width: 100px;
   right: auto;
 }
@@ -64,12 +65,12 @@ video, audio, .mejs-loralee {
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-buffering,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-handle {
-  background: #2d3339;
+  background: red;
   margin: 0;
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-current {
-  background: #ff9900;
+  background: blue;
 }
 
 .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-float {
@@ -109,6 +110,15 @@ audio, video {
     opacity: 1;
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 

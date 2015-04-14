@@ -8,8 +8,7 @@
 }
 
 body {
-  background: white;
-  /*background: url('../img/frenchbgred.jpg');*/
+  background: url('../img/frenchbgred.jpg');
   color: #384047;
   
 }
@@ -21,20 +20,29 @@ body {
   border-radius: 8px;
 }
 
-h1, h2 {
-  margin: 30px 0;
+h1 {
+  font-family: 'Clicker Script', cursive;
+  margin: 50px auto;
   text-align: center;
+  color: white;
+  font-size: 3.5rem;
+
 }
 
 
 /* Your Custom Skin */
 video, audio, .mejs-loralee {
-  margin: auto;
   display: block;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
+video {
+  padding: 10px;
+}
+
+
 .mejs-loralee .mejs-controls {
-  background: blue;
   height: 30px;
 }
 
@@ -47,7 +55,6 @@ video, audio, .mejs-loralee {
 }
 
 .mejs-loralee .mejs-controls .mejs-captions-selector {
-  background: yellow;
   width: 100px;
   right: auto;
 }
@@ -59,18 +66,19 @@ video, audio, .mejs-loralee {
 .mejs-loralee .mejs-controls .mejs-time-rail span {
   height: 100%;
   border-radius: 0px;
+  background: black;
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-total,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-buffering,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-handle {
-  background: red;
+  background: black;
   margin: 0;
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-current {
-  background: blue;
+  background: black;
 }
 
 .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-float {
@@ -110,7 +118,6 @@ audio, video {
     opacity: 1;
   }
 }
-
 
 
 

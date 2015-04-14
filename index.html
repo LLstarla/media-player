@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Video and Audio</title>
 
+    <link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
+
     <script src="js/jquery.js"></script>
     <script src="js/mediaelement-and-player.min.js"></script>
 
 
-    <link rel="stylesheet" href="js/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   
   <body>
     
+    <h1>la musique adoucit les mœurs</h1>
+
     <div class="wrapper">
 
       <!-- Video -->
-      <video class="mejs-loralee" width="436" height="320" >
-        <source src="media/tea.mp4" type="video/mp4">
-        <track label="English" kind="subtitles" srclang="en" src="captions.vtt" default>
+      <video class="mejs-loralee" width="640" height="272" >
+        <source src="media/lnv.mp4" type="video/mp4">
+        <track label="English" kind="subtitles" srclang="en" src="captionsenglish.vtt" >
+          <track label="French" kind="subtitles" srclang="fr" src="captionsfrench.vtt" default>
       </video>
       
       <!-- Audio  La noyée -->

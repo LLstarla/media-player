@@ -96,11 +96,12 @@
 	width: 100px;
 	height: 100px;
 	margin: -50px 0 0 -50px;
-	background: url(bigplay.svg) no-repeat;
+	background: url('../bigplay.svg') no-repeat;
+
 }
 
 .no-svg .mejs-overlay-button {
-	background-image: url(bigplay.png);
+	background-image: url('../bigplay.png');
 }
 
 .mejs-overlay:hover .mejs-overlay-button {
@@ -129,7 +130,7 @@
 	display: block;
 	width: 80px;
 	height: 80px;
-	background: transparent url(loading.gif) 50% 50% no-repeat;
+	background: transparent url('../loading.gif') 50% 50% no-repeat;
 }
 
 /* End: LAYERS */
@@ -142,7 +143,7 @@
 	padding: 0;
 	bottom: 0;
 	left: 0;
-	background: url(background.png);
+	background: url('../background.png');
 	background: rgba(0, 0, 0, 0.7);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(50,50,50,0.7)), to(rgba(0,0,0,0.7)));
 	background: -webkit-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
@@ -180,11 +181,11 @@
 	height: 16px;
 	width: 16px;
 	border: 0;
-	background: transparent url(controls.svg) no-repeat;
+	background: transparent url('../controls.svg') no-repeat;
 }
 
 .no-svg .mejs-controls .mejs-button button {
-	background-image: url(controls.png);
+	background-image: url('../controls.png');
 }
 
 /* :focus for accessibility */

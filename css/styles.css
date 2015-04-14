@@ -7,9 +7,9 @@
   box-sizing: border-box;
 }
 
-body {
-  background: url('../img/frenchbgred.jpg');
-  color: #384047;
+html {
+  background: url('../img/ET.jpg');
+  background-size: cover;
   
 }
 
@@ -22,32 +22,51 @@ body {
 
 h1 {
   font-family: 'Clicker Script', cursive;
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: center;
-  color: white;
+  color: #545454;
   font-size: 3.5rem;
 
 }
 
-
+p {
+   font-family: cursive;
+  margin: auto;
+  text-align: center;
+  color: #545454;
+  font-size: 1rem;
+  margin-bottom: 120px;
+}
 /* Your Custom Skin */
-video, audio, .mejs-loralee {
+video {
   display: block;
   margin: auto;
   margin-bottom: 100px;
-}
-
-video {
   padding: 10px;
 }
+
+audio {
+  display: block;
+  margin: auto;
+}
+
+.mejs-loralee {
+  display: block;
+  margin: auto;
+  margin-bottom: 45px;
+}
+
+
 
 
 .mejs-loralee .mejs-controls {
   height: 30px;
+  background: black;
 }
 
 .mejs-loralee .mejs-controls .mejs-button button {
   outline: none;
+
 }
 
 .mejs-loralee .mejs-controls .mejs-captions-button {
@@ -55,30 +74,34 @@ video {
 }
 
 .mejs-loralee .mejs-controls .mejs-captions-selector {
-  width: 100px;
+  width: 90px;
+  height: 200px;
   right: auto;
+  
+  
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail {
   padding: 0;
+  
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail span {
   height: 100%;
   border-radius: 0px;
-  background: black;
+  
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-total,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-buffering,
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-handle {
-  background: black;
+  background: #222222;
   margin: 0;
 }
 
 .mejs-loralee .mejs-controls .mejs-time-rail .mejs-time-current {
-  background: black;
+  background: white;
 }
 
 .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-float {

@@ -1,11 +1,14 @@
+/* Color Pallette Variables */
+/* Font Variables */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-html {
-  background: url("../img/ET.jpg");
-  background-size: cover; }
+body {
+  background: url("../img/eiffeltowerbg1.jpg") no-repeat;
+  background-color: #000000;
+  background-size: contain; }
 
 .wrapper {
   float: center;
@@ -100,5 +103,99 @@ audio, video {
     opacity: 0; }
   100% {
     opacity: 1; } }
+#playlist, audio {
+  background: none;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  float: center;
+  margin-top: 10%; }
+
+.active a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif; }
+
+li {
+  list-style: none;
+  font-family: 'Raleway', sans-serif; }
+
+li a {
+  color: white;
+  background: none;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 5px; }
+
+li a:hover {
+  text-decoration: none;
+  color: white;
+  background: #545454;
+  font-family: 'Raleway', sans-serif; }
+
+h3 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: -35px; }
+
+em {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.90rem; }
+
+#mep_1 {
+  margin: auto;
+  float: center;
+  margin-top: 5%;
+  margin-bottom: 50px; }
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 2%; }
+
+.col:first-child {
+  margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%; }
+
+.span_1_of_2 {
+  width: 49%; }
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%; } }
+@media only screen and (max-width: 480px) {
+  .span_2_of_2, .span_1_of_2 {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
